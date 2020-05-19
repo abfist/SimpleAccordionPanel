@@ -18,6 +18,13 @@ if the title is pressed then the icon changes and the content panel is shown as 
 3) AccordionPanel - the accordion panel itself
 
 # usage:
+<b>getting the library:</b>
+
+get the library using your favorite build tool using jitpack -
+
+[Jitpack build link](url "https://jitpack.io/#abfist/SimpleAccordionPanel/master-SNAPSHOT") 
+
+
 <b>creating the panel:</b>
 
 creating the panel is simple, just call the AccordionPanel class constructor and pass the desired title and a content Jpanel.
