@@ -28,14 +28,24 @@ public class AccordionPanel extends JPanel {
 	private AccordionPanelOptions _options;	
 	private boolean _panelClosed;
 		
+	public AccordionPanel(String title, JPanel contentPanel) 
+	{
+		this(title, contentPanel,null);
+	}
 	
 	public AccordionPanel(String title, JPanel contentPanel,AccordionPanelOptions options) 
+	{
+		this(title, contentPanel,options,null);
+	}
+	
+	public AccordionPanel(String title, JPanel contentPanel,AccordionPanelOptions options,IconSet iconSet) 
 	{
 		super();
 		setLayout(new MigLayout());
 		set_title(title);
 		set_contentPanel(contentPanel);
 		set_options(options);
+		set_iconset(iconSet);
 		set_titleLabel(new JLabel());
 		set_iconLabel(new JLabel());
 		

@@ -6,7 +6,7 @@ import java.awt.event.MouseListener;
 
 public class AccordionPanelController {
 
-	public static MouseListener getMouseListener(AccordionPanel panel) {
+	public static MouseListener getMouseListener(final AccordionPanel panel) {
 		// TODO Auto-generated method stub
 		return new MouseAdapter() {
 

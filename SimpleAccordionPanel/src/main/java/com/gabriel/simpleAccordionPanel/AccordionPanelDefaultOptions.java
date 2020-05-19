@@ -26,7 +26,7 @@ public class AccordionPanelDefaultOptions implements AccordionPanelOptions{
 	@Override
 	public void config(AccordionPanel panel) {
 		setViewMode(panel);
-		
+		//TODO handle max sizes
 		
 	}
 
