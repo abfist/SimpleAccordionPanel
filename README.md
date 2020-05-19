@@ -22,7 +22,7 @@ if the title is pressed then the icon changes and the content panel is shown as 
 
 get the library using your favorite build tool using jitpack -
 
-[Jitpack build link](url "https://jitpack.io/#abfist/SimpleAccordionPanel/master-SNAPSHOT") 
+[Jitpack build link]("https://jitpack.io/#abfist/SimpleAccordionPanel/master-SNAPSHOT") 
 
 
 <b>creating the panel:</b>
